@@ -1,0 +1,93 @@
+/** NAVIGATION BAR */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+/** HERO */
+.hero {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+/** CARDS */
+.cards-section {
+    margin: 15px 0;
+}
+
+.cards-section-title {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    margin: 20px;
+    max-width: 30%;
+}
+
+.card-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+    .cards-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+}
+
+/** FOOTER */
+.footer-container {
+    padding: 25px 5%;
+    min-height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #02164C;
+    color: white;
+}
