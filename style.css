@@ -37,7 +37,8 @@ body {
 
 /** CARDS */
 .cards-section {
-    margin: 15px 0;
+    max-width: 70%;
+    margin: auto;
 }
 
 .cards-section-title {
